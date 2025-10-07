@@ -11,7 +11,7 @@ content: "";
     right ovw;
     z-index:-10
 
-
+    
 
 
 
@@ -111,4 +111,35 @@ padding: 18%;
         z-index: -10;
         justify-content: space-around
      }
+        a:link{
+            background-color: blue;
+        }
+
+    p:last-of-type {
+        background-color: green;
+    }
+    li:last-of-type {
+        background-color: orange;
+    }
     
+     p:last-child {
+        background-color: green;
+    }
+
+     li:last-child {
+        background-color: orange;
+         {
+    
+            :not(p)  {
+                background-color: orange;
+            }
+    
+    
+         
+
+
+
+
+
+
+
